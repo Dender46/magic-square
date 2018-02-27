@@ -6,7 +6,7 @@ const inputSize = document.getElementById('size');
 inputSize.addEventListener('change', handleSizeInput);
 
 function setup() {
-	createCanvas(900, 900);
+	createCanvas(windowHeight-40, windowHeight-40);
 	background(255)
 
 	textAlign(CENTER, CENTER);
